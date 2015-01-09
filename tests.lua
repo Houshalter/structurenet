@@ -1,4 +1,5 @@
 test1 = {}
+dofile("sparseWeightsLinear.lua")
 tester = torch.Tester()
 
 --test gradbias
