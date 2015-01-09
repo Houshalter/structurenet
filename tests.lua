@@ -1,5 +1,6 @@
-test1 = {}
+require "nn"
 dofile("sparseWeightsLinear.lua")
+test1 = {}
 tester = torch.Tester()
 
 --test gradbias
